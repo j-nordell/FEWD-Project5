@@ -60,11 +60,12 @@ a img {
     #search {
         min-width: 425px;
     }
+}
 
-    @media (prefers-color-scheme: dark) {
-        body {
-            background-color: rgb(40, 40, 40);
-            color: rgb(210, 210, 210);
-        }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(40, 40, 40);
+        color: rgb(210, 210, 210);
     }
 }
